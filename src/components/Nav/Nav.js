@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-function Navbar() {
+function Nav() {
   const location = useLocation();
 
   return (
@@ -35,19 +35,11 @@ function Navbar() {
           Contact
         </Link>
       </li>
-      <li className="nav-item">
-        <Link
-          to="/contact/learn"
-          className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
-        >
-          Learn
-        </Link>
-      </li>
     </ul>
   );
 }
 
-export default Navbar;
+export default Nav;
 
 
 // <!-- navbar -->

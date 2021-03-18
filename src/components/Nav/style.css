@@ -1,0 +1,14 @@
+/* Properties for navbar */
+.nav-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 5px;
+    justify-items: end;
+  }
+  
+  .top-nav {
+    padding-top: 10px;
+    color: rgb(116, 121, 117);
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+  }
