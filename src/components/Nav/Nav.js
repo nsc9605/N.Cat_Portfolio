@@ -6,9 +6,10 @@ function Nav() {
   const location = useLocation();
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs float-right">
       <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}
+        ><i className="fa fa-fw fa-home"></i>
           Home
         </Link>
       </li>
@@ -16,7 +17,7 @@ function Nav() {
         <Link
           to="/about"
           className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
-        >
+        ><i className="fa fa-fw fa-user"></i> 
           About
         </Link>
       </li>
@@ -24,7 +25,7 @@ function Nav() {
         <Link
           to="/projects"
           className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}
-        >
+        ><i className="fa fa-fw fa-code"></i>
           Projects
         </Link>
       </li>
@@ -32,18 +33,18 @@ function Nav() {
         <Link
           to="/contact"
           className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-        >
+        ><i className="fa fa-fw fa-envelope"></i>
           Contact
         </Link>
       </li>
       <li className="nav-item">
-        <Link
-          to="/resume"
-          className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}
-          href={resume}
-        >
-          Resume
-        </Link>
+        <a className={location.pathname === "/resume" ? "nav-link active" : "nav-link"} 
+        href={resume}
+        target="_blank"
+        rel="noreferrer"
+        ><i className="fa fa-download"></i>
+           Resume
+        </a>
       </li>
     </ul>
   );

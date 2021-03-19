@@ -9,7 +9,7 @@ function About() {
         <ContainerFluid>
           <h2 className="subheading">
               About Me
-          <img src={profile} alt="Nicole Catapano" className="profile-img float-left m-4 img-fluid rounded pull-left" />
+          <img src={profile} alt="Nicole Catapano" className="profile-img float-right m-4 img-fluid rounded pull-right" />
          </h2>
           <p className="">
             I am originally from St. Louis, MO but currently live in Brooklyn,
@@ -31,7 +31,7 @@ function About() {
           <p>
             HTML5 ﹒ CSS3 ﹒ JavaScript ﹒ jQuery ﹒ Express ﹒ Node.js ﹒ Handlebars ﹒ ES6 ﹒ MySQL ﹒ MongoDB ﹒ NoSQL ﹒ GitHub ﹒ API ﹒ Bootstrap 
           </p>
-      
+          
       </ContainerFluid>
     </div>
   );
