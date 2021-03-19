@@ -1,15 +1,17 @@
 import React from "react";
 import ContainerFluid from "../../components/ContainerFluid/index";
+import profile from "../../assets/img/self.jpeg";
+
 
 function About() {
   return (
     <div>
         <ContainerFluid>
-          <h2>
+          <h2 className="subheading">
               About Me
-              <img src="../../img/self.jpeg" alt="Nicole Catapano" className="profile-img" />
+          <img src={profile} alt="Nicole Catapano" className="profile-img float-left m-4 img-fluid rounded pull-left" />
          </h2>
-          <p>
+          <p className="">
             I am originally from St. Louis, MO but currently live in Brooklyn,
             NY. I earned my B.A. in Recreation Therapy and minor in Psychology
             from the University of North Carolina at Wilmington in 2013. I later
@@ -21,6 +23,13 @@ function About() {
             would like to work in and that is tech. This has allowed me to make
             a career change but I will be taking all the useful skills I have
             developed after 15+ years in the service industry field.
+          </p>
+
+          <h3 className="skills">
+            Technical Skills
+          </h3>
+          <p>
+            HTML5 ﹒ CSS3 ﹒ JavaScript ﹒ jQuery ﹒ Express ﹒ Node.js ﹒ Handlebars ﹒ ES6 ﹒ MySQL ﹒ MongoDB ﹒ NoSQL ﹒ GitHub ﹒ API ﹒ Bootstrap 
           </p>
       
       </ContainerFluid>

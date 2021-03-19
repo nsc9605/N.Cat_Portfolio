@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import resume from "../../assets/Web_Dev-Res.pdf";
 
 function Nav() {
   const location = useLocation();
@@ -33,6 +34,15 @@ function Nav() {
           className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
           Contact
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/resume"
+          className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}
+          href={resume}
+        >
+          Resume
         </Link>
       </li>
     </ul>
