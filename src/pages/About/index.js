@@ -9,7 +9,7 @@ function About() {
         <ContainerFluid>
           <h2 className="subheading">
               About Me
-          <img src={profile} alt="Nicole Catapano" className="profile-img float-right m-4 img-fluid rounded pull-right" />
+          <img src={profile} alt="Nicole Catapano" className="profile-img float-right m-4 rounded pull-right" />
          </h2>
           <p className="">
             I am originally from St. Louis, MO but currently live in Brooklyn,

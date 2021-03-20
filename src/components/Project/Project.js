@@ -12,6 +12,7 @@ function Project(props) {
                 <div className="card-content info-content">
                     <h3 className="project-title">{props.title}</h3>
                     <p>{props.description}</p>
+                    <p>{props.tags}</p>
                     <div className="links">
                         <a href={props.repo} rel='noreferrer' target="_blank">
                             <i className="fa fa-github"></i>

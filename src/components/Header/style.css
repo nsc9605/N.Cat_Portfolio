@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
 
 /* Name properties */
 h1 {
-    font-size: 63px;
+    font-size: larger;
     padding: 10px;
     /* color: rgb(240, 206, 170); */
     color: rgb(228, 215, 255);
