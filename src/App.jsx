@@ -5,7 +5,6 @@ import Header from "./components/Header/Header";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
-// import Resume from "./pages/Resume/Resume";
 import Footer from "./components/Footer/Footer";
 import './App.css';
 
