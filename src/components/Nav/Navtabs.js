@@ -9,7 +9,7 @@ function Navtabs() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       {/* <Navbar.Brand href="#/" className="brand size-large"> */}
-      <Navbar.Brand to="/" className={location.pathname === "/" ? "size-large" : "brand"}>
+      <Navbar.Brand to="/" className={location.pathname === "/" ? "brand" : "size-large"}>
         Nicole Catapano
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

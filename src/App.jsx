@@ -10,7 +10,7 @@ import './index.css';
 
 function App() {
     return (
-      <Router basename="/">
+      <Router>
           <Navtabs />
           <Header />
           <Route exact path="/" component={About} />

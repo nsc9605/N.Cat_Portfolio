@@ -10,13 +10,12 @@ function Contact() {
     <Container>
       <h2>Contact Me</h2>
       {/* <div className="centered"> */}
-      <Card className="p-2 bg-light centered">
+      <Card className="p-1 bg-light centered card-contact">
         {/* <img src={home} key={home} alt="Me" className="card-img-top img-fluid " /> */}
         <div className="card-title">
             <h4>Please feel free to contact me via any of the provided links!</h4>
         </div>
-
-        <div className="card-body">
+        {/* <div className="card-body"> */}
           <ListGroup>
             <ListGroupItem>
              <i className="bi bi-telephone-outbound fa-lg"></i> :
@@ -70,7 +69,7 @@ function Contact() {
               </Card.Link>
             </ListGroupItem>
           </ListGroup>
-        </div>
+        {/* </div> */}
       </Card>
       {/* </div> */}
     </Container>

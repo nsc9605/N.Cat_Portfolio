@@ -64,7 +64,7 @@ body {
   box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
 }
 
-.card {
+.card-proj {
   max-width: 35rem;
   max-height: 35rem;
   align-items: center !important;
@@ -189,4 +189,9 @@ footer {
 .about-me {
   font-family: courier !important;
 
+}
+
+.card-contact {
+  max-width: 33rem;
+  max-height: 33rem;
 }
