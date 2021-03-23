@@ -9,12 +9,11 @@ function Contact() {
   return (
     <Container>
       <h2>Contact Me</h2>
-      <Card className="p-2 bg-light">
+      {/* <div className="centered"> */}
+      <Card className="p-2 bg-light centered">
         {/* <img src={home} key={home} alt="Me" className="card-img-top img-fluid " /> */}
-        <div className="card-body">
-          <div className="card-content">
+        <div className="card-title">
             <h4>Please feel free to contact me via any of the provided links!</h4>
-          </div>
         </div>
 
         <div className="card-body">
@@ -73,6 +72,7 @@ function Contact() {
           </ListGroup>
         </div>
       </Card>
+      {/* </div> */}
     </Container>
   );
 }

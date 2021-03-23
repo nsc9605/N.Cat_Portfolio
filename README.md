@@ -55,8 +55,6 @@ This is a professional portfolio displaying information about me, projects I hav
 │       └── Web_Dev-Res.pdf
 │
 │   └── components
-│       └── ContainerFluid
-│           └── index.js
 │       └── Footer
 │           └── Footer.js
 │           └── style.css
@@ -64,7 +62,7 @@ This is a professional portfolio displaying information about me, projects I hav
 │           └── Header.js
 │           └── style.css
 │       └── Nav
-│           └── Nav.js
+│           └── Navtabs.js
 │           └── style.css
 │       └── Project
 │           └── Project.js

@@ -4,7 +4,7 @@ function Project(props) {
   return (
     <div className="card portfolio-item p-2 border-dark bg-dark text-white mb-3 shadow rounded centered">
       <img
-        className="card-img-top img-fluid proj-img"
+        className="card-img-top img-fluid proj-img p-2"
         src={props.image}
         alt={props.title}
       />
@@ -23,7 +23,7 @@ function Project(props) {
                 title="Github Repo"
                 className="proj-link"
               >
-                <i className="fa fa-github p-2 fa-2x text-center"></i>
+                <i className="fa fa-github p-2 fa-lg text-center"></i>
               </a>
             </h2>
             <h2>
@@ -35,7 +35,7 @@ function Project(props) {
                 title="Link To Deployed Page"
                 className="proj-link"
               >
-                <i className="fa fa-desktop p-2 fa-2x text-center"></i>
+                <i className="fa fa-desktop p-2 fa-lg text-center"></i>
               </a>
             </h2>
         </div>
