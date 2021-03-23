@@ -1,14 +1,14 @@
-/* footer {
-    position: sticky;
+footer {
+    /* position: sticky; */
     text-align: center;
-    font-size: 2rem;
-  } */
+    /* font-size: 2rem; */
+  }
 
   .icons-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    max-width: 300px;
+    max-width: 200px;
     margin: auto;
     align-items: center;
     /* position: center; */

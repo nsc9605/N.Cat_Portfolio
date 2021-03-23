@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&family=Open+Sans&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
 .profile-img {
   border: 2px solid black !important;
 }
@@ -31,4 +33,7 @@
     transform: 0.3s ease-in-out;
   }
    */
-  
+  .about-me {
+    font-family: courier !important;
+
+  }

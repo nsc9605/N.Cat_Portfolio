@@ -1,78 +1,82 @@
 import React from "react";
-import ContainerFluid from "../../components/ContainerFluid/index";
+import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
+import ListGroup from "react-bootstrap/ListGroup";
+import ListGroupItem from "react-bootstrap/ListGroupItem";
+// import home from "../../assets/img/home.jpeg";
 
 function Contact() {
   return (
-    <div>
-      <ContainerFluid>
-        <h2>Contact Me</h2>
-        <div className="icons-grid">
-          <div className="phone">
-          <h4>Phone: </h4>
-          <a
-            href="tel:314-221-0441"
-            alt="Phone #: 314.221.0441"
-            title="Click to call"
-          >
-            <img
-              src="https://img.icons8.com/ios-filled/100/000000/apple-phone.png"
-              className="link-item"
-              alt="Phone #: 314.221.0441"
-            />
-          </a>
-          </div>
-          <div className="email">
-            <h4>Email: </h4>
-          <a
-            href="mailto:nsc9605@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            alt="email"
-            title="Click to launch email"
-          >
-            <img
-              src="https://img.icons8.com/dotty/100/000000/new-post.png"
-              className="link-item"
-              alt="Email"
-            />
-          </a>
-          </div>
-          <div className="github">
-            <h4>Github: </h4>
-          <a
-            href="https://github.com/nsc9605"
-            target="_blank"
-            alt="github"
-            title="Click to launch GitHub account"
-            rel="noreferrer"
-          >
-            <img
-              src="https://img.icons8.com/fluent/100/000000/github.png"
-              className="link-item"
-              alt="Github"
-            />
-          </a>
-          </div>
-          <div className="linkedin">
-            <h4>Linkedin: </h4>
-          <a
-            href="https://www.linkedin.com/in/nicole-catapano"
-            target="_blank"
-            alt="linkedIn"
-            title="Click to launch LinkedIn page"
-            rel="noreferrer"
-          >
-            <img
-              src="https://img.icons8.com/doodle/100/000000/linkedin--v2.png"
-              className="link-item"
-              alt="LinkedIn"
-            />
-          </a>
+    <Container>
+      <h2>Contact Me</h2>
+      <Card className="p-2 bg-light">
+        {/* <img src={home} key={home} alt="Me" className="card-img-top img-fluid " /> */}
+        <div className="card-body">
+          <div className="card-content">
+            <h4>Please feel free to contact me via any of the provided links!</h4>
           </div>
         </div>
-      </ContainerFluid>
-    </div>
+
+        <div className="card-body">
+          <ListGroup>
+            <ListGroupItem>
+             <i className="bi bi-telephone-outbound fa-lg"></i> :
+              <Card.Link
+                href="tel:314-221-0441"
+                alt="Phone #: 314.221.0441"
+                title="Click to call"
+                className="contact-link"
+              >
+                {" "}
+                <span>  314.221.0441</span>
+              </Card.Link>
+            </ListGroupItem>
+            <ListGroupItem>
+            <i className="bi bi-envelope fa-lg"></i> : {" "}
+              <Card.Link
+                href="mailto:nsc9605@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                alt="email"
+                title="Click to launch email"
+                className="contact-link"
+              >
+                 <span> nsc9605@gmail.com</span>
+              </Card.Link>
+            </ListGroupItem>
+            <ListGroupItem>
+            <i className="bi bi-github fa-lg"></i> :   {" "}
+              <Card.Link
+                href="https://github.com/nsc9605"
+                target="_blank"
+                rel="noreferrer"
+                alt="Github"
+                title="Click to launch Github"
+                className="contact-link"
+              >
+                https://github.com/nsc9605
+              </Card.Link>
+            </ListGroupItem>
+            <ListGroupItem>
+            <i className="bi bi-linkedin fa-lg"></i>  :  {" "}
+              <Card.Link
+                href="https://www.linkedin.com/in/nicole-catapano"
+                target="_blank"
+                alt="linkedIn"
+                title="Click to launch LinkedIn page"
+                rel="noreferrer"
+                className="contact-link"
+              >
+                https://linkedin.com/in/nicole-catapano
+              </Card.Link>
+            </ListGroupItem>
+          </ListGroup>
+        </div>
+      </Card>
+    </Container>
   );
 }
 
 export default Contact;
+
+
