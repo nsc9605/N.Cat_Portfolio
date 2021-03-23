@@ -29,6 +29,69 @@ This is a professional portfolio displaying information about me, projects I hav
 ### Contact Information
 ![Contact](src/img/contact.png)
 
+### Directory Structure
+
+```
+├── node_modules
+│
+├── public
+│   └── favicon.ico
+│   └── index.html
+│   └── manifest.json
+│   └── robots.txt
+│
+├── src
+│   └── assets
+│       └── img
+│           └── all-roles.png
+│           └── burg.png
+│           └── Employee-Directory.gif
+│           └── github.svg
+│           └── graphs.png
+│           └── header1.png
+│           └── home.jpeg
+│           └── luck.png
+│           └── self.jpeg
+│       └── Web_Dev-Res.pdf
+│
+│   └── components
+│       └── ContainerFluid
+│           └── index.js
+│       └── Footer
+│           └── Footer.js
+│           └── style.css
+│       └── Header
+│           └── Header.js
+│           └── style.css
+│       └── Nav
+│           └── Nav.js
+│           └── style.css
+│       └── Project
+│           └── Project.js
+│          
+│   └── pages
+│       └── About
+│           └── index.js
+│           └── style.js
+│       └── Contact
+│           └── index.js
+│       └── Home
+│           └── Home.js
+│       └── Portfolio
+│           └── index.js
+│
+│   └── utils
+│       └── Projects.js
+│
+│   └── App.jsx
+│   └── index.css
+│   └── index.js
+│
+├── package-lock.json
+├── package.json  
+│
+├── README.md
+```
 
 ## Features
 

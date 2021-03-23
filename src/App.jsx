@@ -2,16 +2,17 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
+// import Home from "./pages/Home/Home"
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
 import Footer from "./components/Footer/Footer";
-import './App.css';
+import './index.css';
 
 function App() {
     return (
       <Router>
-        <div>
+        {/* <div> */}
           <Nav />
           <Header />
           <Route exact path="/" component={About} />
@@ -19,7 +20,7 @@ function App() {
           <Route exact path="/projects" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
           <Footer />
-        </div>
+        {/* </div> */}
       </Router>
     );
   }

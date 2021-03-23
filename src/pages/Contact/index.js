@@ -7,6 +7,8 @@ function Contact() {
       <ContainerFluid>
         <h2>Contact Me</h2>
         <div className="icons-grid">
+          <div className="phone">
+          <h4>Phone: </h4>
           <a
             href="tel:314-221-0441"
             alt="Phone #: 314.221.0441"
@@ -18,6 +20,9 @@ function Contact() {
               alt="Phone #: 314.221.0441"
             />
           </a>
+          </div>
+          <div className="email">
+            <h4>Email: </h4>
           <a
             href="mailto:nsc9605@gmail.com"
             target="_blank"
@@ -31,6 +36,9 @@ function Contact() {
               alt="Email"
             />
           </a>
+          </div>
+          <div className="github">
+            <h4>Github: </h4>
           <a
             href="https://github.com/nsc9605"
             target="_blank"
@@ -44,6 +52,9 @@ function Contact() {
               alt="Github"
             />
           </a>
+          </div>
+          <div className="linkedin">
+            <h4>Linkedin: </h4>
           <a
             href="https://www.linkedin.com/in/nicole-catapano"
             target="_blank"
@@ -57,6 +68,7 @@ function Contact() {
               alt="LinkedIn"
             />
           </a>
+          </div>
         </div>
       </ContainerFluid>
     </div>

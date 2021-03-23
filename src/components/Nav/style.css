@@ -1,5 +1,5 @@
 /* Properties for navbar */
-.nav-list {
+/* .nav-list {
     list-style: none;
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
@@ -11,5 +11,34 @@
     padding-top: 10px;
     color: rgb(116, 121, 117);
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
+  } */
+
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
   }
 
+  .navbar-toggler-icon {
+    color: black !important;
+  }
+
+  #side-nav .navbar-toggler-icon {
+    outline-color: #355d6a;
+  }
+
+  @media (min-width: 992px) {
+    #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+  }

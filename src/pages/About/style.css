@@ -2,6 +2,12 @@
   border: 2px solid black !important;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
 .icons-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

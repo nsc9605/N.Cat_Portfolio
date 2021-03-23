@@ -7,7 +7,7 @@ function Portfolio() {
 
   return (
     <ContainerFluid id="portfolio" title="Portfolio">
-      <div className="">
+      <div className="container">
         {projects.map((project) => (
           <Project
           project={project}

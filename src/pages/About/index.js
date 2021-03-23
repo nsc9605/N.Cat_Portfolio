@@ -1,12 +1,13 @@
 import React from "react";
-import ContainerFluid from "../../components/ContainerFluid/index";
+// import ContainerFluid from "../../components/ContainerFluid/index";
 import profile from "../../assets/img/self.jpeg";
 
 
 function About() {
   return (
-    <div>
-        <ContainerFluid>
+    // <div>
+        // <ContainerFluid>
+          <div className="container-lg ">
           <h2 className="subheading">
               About Me
           <img src={profile} alt="Nicole Catapano" className="profile-img float-right m-4 rounded pull-right" />
@@ -31,9 +32,9 @@ function About() {
           <p>
             HTML5 ﹒ CSS3 ﹒ JavaScript ﹒ jQuery ﹒ Express ﹒ Node.js ﹒ Handlebars ﹒ ES6 ﹒ MySQL ﹒ MongoDB ﹒ NoSQL ﹒ GitHub ﹒ API ﹒ Bootstrap 
           </p>
-          
-      </ContainerFluid>
-    </div>
+          </div>
+      // </ContainerFluid>
+    // {/* </div> */}
   );
 }
 
