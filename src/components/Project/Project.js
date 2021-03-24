@@ -8,7 +8,7 @@ function Project(props) {
         src={props.image}
         alt={props.title}
       />
-      <div className="card-body">
+      <div className="card-body centered">
         <div className="card-content info-content">
           <h2 className="card-title">{props.title}</h2>
           <p className="card-text">{props.description}</p>

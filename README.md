@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a professional portfolio displaying information about me, projects I have completed with description, deployed link and link to GitHub Repository as well. Included is a recent photograph as well as some background information about me. This page is user friendly and when you click one of the links in the navigation, it scrolls to each corresponding section.
+This is a professional portfolio created using React displaying information about me, projects I have completed with description, deployed link and link to GitHub Repository as well. Included is a recent photograph as well as some background information about me. This page is user friendly and when you click one of the links in the navigation, it scrolls to each corresponding section. Projects are mapped through a javascript file with information and displayed in cards on the page under projects.
 
 :round_pushpin: [Click here to view deployed page!](https://nsc9605.github.io/N.Cat_Portfolio) :round_pushpin:
 
@@ -23,11 +23,11 @@ This is a professional portfolio displaying information about me, projects I hav
 ![Overview](src/img/main.png)
 
 ### About Me Section
-![AboutMe](src/img/about.png)
+![AboutMe](src/assets/img/about.png)
 ### Projects Section
-![Projects](src/img/projects.png)
+![Projects](src/assets/img/projects.png)
 ### Contact Information
-![Contact](src/img/contact.png)
+![Contact](src/assets/img/contact.png)
 
 ### Directory Structure
 
@@ -43,15 +43,18 @@ This is a professional portfolio displaying information about me, projects I hav
 ├── src
 │   └── assets
 │       └── img
+│           └── about.png
 │           └── all-roles.png
 │           └── burg.png
+│           └── contact.png
 │           └── Employee-Directory.gif
 │           └── github.svg
 │           └── graphs.png
 │           └── header1.png
 │           └── home.jpeg
 │           └── luck.png
-│           └── self.jpeg
+│           └── luck.png
+│           └── projects.jpeg
 │       └── Web_Dev-Res.pdf
 │
 │   └── components
@@ -93,10 +96,10 @@ This is a professional portfolio displaying information about me, projects I hav
 
 ## Features
 
-- When the user clicks on the nav-link item it scrolls to the section corresponding to the topic. 
-- When `About Me` is selected, it will drop down to a photograph and description about me.
-- In the `Projects` section, applications are showcased with titled images, short description, languages/tech used and link to Github repo are provided for each. 
-- Links to social bars are provided in the `Contact Me` section at the bottom of the page. When an icon is pressed, it will take you directly to the page such as my `LinkedIn` page, `GitHub` Profile, as well as open a new `email` draft when clicked depending on the users provider, and the `phone` icon is set to call when clicked, or user can hover over the icon and the links/info will be displayed at the bottom of the page.
+- When the user clicks on the nav-link item it brings them to a new page corresponding to the topic. 
+- When `About Me` is selected, it will them to a page `/about` containing photograph and description about me.
+- In the `Projects` section, will bring the user to a page `/projects` applications are showcased with titled images, short description, languages/tech used and link to Github repo are provided for each. 
+- Links to social bars are provided in the `Contact Me` section and brought to a new page `/contact` in a card for the person to select as well as in the footer on each page. When an icon is pressed, it will take you directly to the page such as my `LinkedIn` page, `GitHub` Profile, as well as open a new `email` draft when clicked depending on the users provider, and the `phone` icon is set to call when clicked, or user can hover over the icon and the links/info will be displayed at the bottom of the page.
 - When `Resume` is clicked it will provide a downloadable PDF file of my up-to-date resume.
 - This page has a responsive layout that adapts to different viewport--allowing it to be used on different device layouts/screen sizes. 
 
@@ -124,7 +127,7 @@ This project was creating with help from:
 ## Technologies
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [UIKit](https://getuikit.com)
+- [React](https://reactjs.org/)
 - Terminal
 
 ## Contact Information
