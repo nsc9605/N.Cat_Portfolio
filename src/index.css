@@ -85,6 +85,12 @@ body {
   overflow:visible; */
 }
 
+.homeImg {
+  max-height: 38rem;
+  max-width: 38rem;
+  
+}
+
 /* .card:hover {
   box-shadow: 5px 10px 5px 1px rgba(0, grey, rgb(228, 184, 228), 0.) !important;
   transition: all 0.3s ease 0s !important;
@@ -121,11 +127,14 @@ h3 {
   height: 100%;
   padding: 10px; */
 }
+/* .foot-div {
+  height
+} */
 
 footer {
   text-align: center;
   font-size: 1.3rem;
-  position: sticky;
+  position: relative;
   left:0;
   bottom:0;
   right:0;

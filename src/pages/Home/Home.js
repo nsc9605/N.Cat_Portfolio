@@ -1,30 +1,68 @@
 import React from "react";
 // import homeImg from "../../assets/img/home.jpeg";
 import home from "../../assets/img/home.jpg";
-import Container from "react-bootstrap/Container"
-
+import Container from "react-bootstrap/Container";
 
 function Home() {
-    return(
-        // <div className="container">
-        <Container>
-            <h2 subheading="Home">THIS IS ME</h2>
-                {/* <img src={homeImg} alt="Home" className="rounded m-3 float-right homeImg"></img> */}
-                <img src={home} alt="Home" className="rounded m-3 float-right homeImg"></img>
-            <h3>
-                Creator 
-                <span>
-                    <p className="indent ml-5 p-2">[ Problem Solver ]</p>
-                </span> 
-                Explorer 
-                <span>
-                    <p className="indent ml-5 p-2"> [ Developer ]</p>
-                </span>
-            </h3>
-            </Container>
-        // {/* </div> */}
+  return (
+    <div className="home-div">
+      <Container>
+            <div subheading="Home p-2">
+              <img
+                src={home}
+                alt="Home"
+                className="rounded m-3 float-right homeImg pull-right img-fluid"
+              />
+            
+          <div className="quote">
+            <blockquote>
+              <em>
+                I don't know where I'm going from here, but I promise it wont be
+                boring
+              </em>
+            </blockquote>
+            <figcaption className="float-right pb-2">
+              &mdash; David Bowie, <cite>Madison Square Garden 1997</cite>
+            </figcaption>
+          </div>
+            <div className="p-2 mx-3">
+              <h3 className="indent mx-5 px-2 float-left">[ Creator ]</h3>
+              <br></br>
+              <br></br>
+              <p>Creativity can be seen in various aspects of life.</p>
 
-    )
+              <h3 className="indent mx-5 px-2 float-right">
+                [ Problem Solver ]
+              </h3>
+              <br></br>
+              <br></br>
+              <p>
+                Born problem solver who constantly finds challenges and must
+                accomplish them. Love learning new things and challenging
+                myself.
+              </p>
+              <h3 className="indent mx-5 px-2 float-left"> [ Explorer ]</h3>
+              <br></br>
+              <br></br>
+              <p>
+                Love to go on spontaneous adventures and just explore this
+                wonderful city I am lucky to live in.
+              </p>
+              <h3 className="indent mx-5 px-2 float-right">[ Developer ]</h3>
+              <br></br>
+              <br></br>
+              <p>
+                Thrive on developing new Apps and really challenging myself to
+                try new things. Please navigate into the Projects section to
+                view projects with deployed link and github provided. For more
+                information about me you can click the social icons at the
+                bottom of the page or navigate to the Contact page!
+              </p>
+            </div>
+            </div>
+      </Container>
+    </div>
+  );
 }
 
 export default Home;

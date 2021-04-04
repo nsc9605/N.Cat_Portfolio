@@ -8,6 +8,11 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 30px;
+  
+}
+
+.about-div {
+  height: 100vh;
 }
 
 .icons-grid {

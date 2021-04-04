@@ -3,9 +3,10 @@ import "./style.css";
 
 function Footer() {
   return (
+    <div className="foot-div">
     <footer id="sticky-footer" className="justify-content-center">
       <small className="align-text-center">&copy; 2020 Nicole Catapano</small>
-      <div className="pb-2 size-md">
+      <div className="p-2 size-md">
        <a
             href="tel:314-221-0441"
             alt="Phone #: 314.221.0441"
@@ -57,8 +58,8 @@ function Footer() {
             />
           </a>
         </div> 
-    {/* </div> */}
   </footer>
+    </div>
   
   );
 }

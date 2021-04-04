@@ -3,7 +3,7 @@ import profile from "../../assets/img/self.jpeg";
 
 function About() {
   return (
-    <div className="container-lg ">
+    <div className="container-lg about-div">
       <h2 className="subheading">About Me</h2>
       <div className="about-me">
         <p>
