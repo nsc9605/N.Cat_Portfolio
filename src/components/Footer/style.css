@@ -1,5 +1,5 @@
 footer {
-    /* position: sticky; */
+    display:block;
     text-align: center;
     /* font-size: 2rem; */
   }
@@ -7,7 +7,7 @@ footer {
   .icons-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 30px;
     max-width: 200px;
     margin: auto;
     align-items: center;

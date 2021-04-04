@@ -1,15 +1,16 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-// import ContainerFluid from "../../components/ContainerFluid/index";
-import Project from "../../components/Project/Project";
+// import Project from "../../components/Project/Project";
+import Draft from "../../components/Project/Draft";
 import projects from "../../utils/Projects";
 
 function Portfolio() {
 
   return (
-    <Container>
+    <Container className="portfolio-item m-2">
         {projects.map((project) => (
-          <Project
+          <Draft
+          // <Project
           project={project}
             key={project.id}
             title={project.title}
@@ -18,7 +19,8 @@ function Portfolio() {
             image={project.image}
             repo={project.repo}
             deploy={project.deploy}
-          ></Project>
+          // ></Project>
+          ></Draft>
         ))}
     </Container > 
   );

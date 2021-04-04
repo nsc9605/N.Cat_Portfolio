@@ -2,6 +2,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import resume from "../../assets/Web_Dev-Res.pdf";
+// import Avatar from "react-avatar";
+
+import profile from "../../assets/img/self.jpeg";
 
 function Navtabs() {
   const location = useLocation();
@@ -9,10 +12,11 @@ function Navtabs() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Link to="/">
-      <Navbar.Brand className="brand size-large">
-      {/* <Navbar.Brand to="/" className={location.pathname === "/" ? "brand size-large" : "nav-link"}> */}
-        Nicole Catapano
-      </Navbar.Brand>
+        <Navbar.Brand className="brand size-large">
+          {/* <Navbar.Brand to="/" className={location.pathname === "/" ? "brand size-large" : "nav-link"}> */}
+          <img alt="Headshot" src={profile} className="avatar avatar-s rounded-circle mr-2"></img>
+          Nicole Catapano
+        </Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

@@ -10,7 +10,7 @@ function About() {
           <img
             src={profile}
             alt="Nicole Catapano"
-            className="profile-img pl-2 float-right m-4 rounded pull-right img-fluid"
+            className="profile-img px-2 float-right m-4 pull-right img-fluid rounded"
           />
           I am a Full Stack Web Developer originally from St. Louis, MO trained
           in the MERN Stack based in Brooklyn, NY acquiring a Certificate
