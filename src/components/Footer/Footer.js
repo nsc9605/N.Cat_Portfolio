@@ -1,12 +1,14 @@
 import React from "react";
+// import Container from "react-bootstrap/Container";
 import "./style.css";
 
 function Footer() {
   return (
-    <div className="foot-div">
-    <footer id="sticky-footer" className="justify-content-center">
+    // <Container>
+    // <div> 
+    <div className="footer m-2">
       <small className="align-text-center">&copy; 2020 Nicole Catapano</small>
-      <div className="p-2 size-md">
+      <div className="p-1 size-md">
        <a
             href="tel:314-221-0441"
             alt="Phone #: 314.221.0441"
@@ -58,9 +60,9 @@ function Footer() {
             />
           </a>
         </div> 
-  </footer>
-    </div>
-  
+  </div>
+    // </div>
+    // </Container>
   );
 }
 

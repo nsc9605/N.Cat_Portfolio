@@ -1,16 +1,18 @@
 import React from "react";
 import profile from "../../assets/img/self.jpeg";
+import Container from "react-bootstrap/Container";
+import "./style.css";
 
 function About() {
   return (
-    <div className="container-lg about-div">
+    <Container fluid="md" className="about-div m-3 p-2">
       <h2 className="subheading">About Me</h2>
       <div className="about-me">
         <p>
           <img
             src={profile}
             alt="Nicole Catapano"
-            className="profile-img px-2 float-right m-4 pull-right img-fluid rounded"
+            className="profile-img p-3 float-right m-4 pull-right img-fluid rounded"
           />
           I am a Full Stack Web Developer originally from St. Louis, MO trained
           in the MERN Stack based in Brooklyn, NY acquiring a Certificate
@@ -42,13 +44,29 @@ function About() {
           appearance of the app just as important.
         </p>
       </div>
+      <div>
       <h2 className="skills">Technical Skills</h2>
-      <h4>
-        HTML5 ﹒ CSS3 ﹒ JavaScript ﹒ jQuery ﹒ Express ﹒ Node.js ﹒
+      <h2 className="m-2 pb-2 tech-cons">
+        {/* HTML5 ﹒ CSS3 ﹒ JavaScript ﹒ jQuery ﹒ Express ﹒ Node.js ﹒
         Handlebars ﹒ ES6 ﹒ MySQL ﹒ MongoDB ﹒ NoSQL ﹒ GitHub ﹒ API ﹒
-        Bootstrap
-      </h4>
-    </div>
+        Bootstrap */}
+        <i className="devicon-html5-plain-wordmark colored"></i>
+        <i className="devicon-css3-plain-wordmark colored"></i>
+        <i className="devicon-javascript-plain colored"></i>
+        <i className="devicon-jquery-plain-wordmark colored"></i>
+        <i className="devicon-express-original-wordmark colored"></i>
+        <i className="devicon-nodejs-plain-wordmark colored"></i>
+        <i className="devicon-handlebars-plain-wordmark"></i>
+        <i className="devicon-mysql-plain-wordmark colored"></i>
+        <i className="devicon-mongodb-plain-wordmark colored"></i>
+        <i className="devicon-git-plain-wordmark colored"></i>
+        <i className="devicon-react-original-wordmark colored"></i>
+        <i className="devicon-materialui-plain colored"></i>
+        <i className="devicon-npm-original-wordmark colored"></i>
+        <i className="devicon-visualstudio-plain colored"></i>
+      </h2>
+      </div>
+    </Container>
   );
 }
 

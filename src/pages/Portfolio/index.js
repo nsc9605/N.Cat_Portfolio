@@ -1,17 +1,18 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 // import Project from "../../components/Project/Project";
 import Draft from "../../components/Project/Draft";
 import projects from "../../utils/Projects";
 
 function Portfolio() {
-
   return (
-    <Container className="portfolio-item m-2">
+    <div>
+      <h2>Projects</h2>
+      <div fluid="md" className="portfolio-item p-1">
         {projects.map((project) => (
           <Draft
-          // <Project
-          project={project}
+            // <Project
+            project={project}
             key={project.id}
             title={project.title}
             description={project.description}
@@ -19,12 +20,12 @@ function Portfolio() {
             image={project.image}
             repo={project.repo}
             deploy={project.deploy}
-          // ></Project>
+            // ></Project>
           ></Draft>
         ))}
-    </Container > 
+      </div>
+    </div>
   );
 }
 
 export default Portfolio;
-

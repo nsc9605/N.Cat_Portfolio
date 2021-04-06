@@ -3,8 +3,8 @@ import Card from 'react-bootstrap/Card'
 
 function Draft(props) {
   return (
-<div className="portfolio-item centered">
-<Card style={{ width: '25rem', height: '30rem', border:"dark"}}>
+<div className="alignment p-2">
+<Card style={{ width: '25rem', height: '30rem', border:"black solid 1px" }}>
 <Card.Img variant="top" src={props.image} alt={props.title} className="p-2 border" />
 <Card.Body>
   <Card.Title>{props.title}</Card.Title>

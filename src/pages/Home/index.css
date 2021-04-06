@@ -10,6 +10,16 @@
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
     gap: 20px;
+    /* display: flex !important; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap !important; */
+
+}
+
+.objects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 blockquote {
