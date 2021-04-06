@@ -14,11 +14,11 @@
   /* flex-wrap: wrap !important; */
 }
 
-/* .objects {
+.objects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-} */
+}
 
 blockquote {
   position: relative;

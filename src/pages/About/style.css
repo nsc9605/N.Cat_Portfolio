@@ -2,13 +2,14 @@
 
 .profile-img {
   /* border: 2px solid black !important; */
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 10px;
 }
 
 .about {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   /* grid-template-columns: 2fr 1fr;
   gap: 30px; */
 }
@@ -17,7 +18,7 @@
   height: 100vh;
 }
 
-.icons-grid {
+/* .icons-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
@@ -33,7 +34,7 @@
   transition: all 0.3s ease 0s !important;
   border-radius: 5px;
   padding: 10px;
-}
+} */
 
 /* .icons-grid:hover {
     cursor: pointer;

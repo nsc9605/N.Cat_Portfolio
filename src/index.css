@@ -234,6 +234,21 @@ h3 {
   /* border-bottom-width: ; */
 }
 
+/* .objects {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.home-div {
+  /* height: 100vh; */
+  /* display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 20px; */
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: wrap !important;
+}
+
 .portfolio-item {
   /* display: grid;
   grid-template-columns: 1fr 1fr;
