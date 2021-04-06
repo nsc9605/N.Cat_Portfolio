@@ -10,7 +10,7 @@ function Draft(props) {
   <Card.Title>{props.title}</Card.Title>
   <Card.Text>
     <p>{props.description}</p>
-    <p className="text-center m-2">{props.tags}</p>
+    <p className=" m-2">{props.tags}</p>
   </Card.Text>
 </Card.Body>
 <Card.Body className="text-center m-2">

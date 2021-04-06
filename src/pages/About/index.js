@@ -44,9 +44,9 @@ function About() {
           appearance of the app just as important.
         </p>
       </div>
-      <div>
+      <div className="mb-3">
       <h2 className="skills">Technical Skills</h2>
-      <h2 className="m-2 pb-2 tech-cons">
+      <h2 className="tech-cons pb-3">
         {/* HTML5 ﹒ CSS3 ﹒ JavaScript ﹒ jQuery ﹒ Express ﹒ Node.js ﹒
         Handlebars ﹒ ES6 ﹒ MySQL ﹒ MongoDB ﹒ NoSQL ﹒ GitHub ﹒ API ﹒
         Bootstrap */}
@@ -65,6 +65,8 @@ function About() {
         <i className="devicon-npm-original-wordmark colored"></i>
         <i className="devicon-visualstudio-plain colored"></i>
       </h2>
+      <br></br>
+      <br></br>
       </div>
     </Container>
   );

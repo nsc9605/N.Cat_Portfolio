@@ -135,6 +135,7 @@ h3 {
 .alignments {
   height: 100vh; /* Magic here */
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }

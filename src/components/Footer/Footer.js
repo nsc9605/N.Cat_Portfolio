@@ -6,7 +6,7 @@ function Footer() {
   return (
     // <Container>
     // <div> 
-    <div className="footer m-2">
+    <div className="footer pt-5">
       <small className="align-text-center">&copy; 2020 Nicole Catapano</small>
       <div className="p-1 size-md">
        <a

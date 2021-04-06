@@ -1,13 +1,13 @@
 import React from "react";
-// import Container from "react-bootstrap/Container";
+import Container from "react-bootstrap/Container";
 // import Project from "../../components/Project/Project";
 import Draft from "../../components/Project/Draft";
 import projects from "../../utils/Projects";
 
 function Portfolio() {
   return (
-    <div>
-      <h2>Projects</h2>
+    <Container fluid="md">
+      <h2 className="m-2">Projects</h2>
       <div fluid="md" className="portfolio-item p-1">
         {projects.map((project) => (
           <Draft
@@ -24,7 +24,7 @@ function Portfolio() {
           ></Draft>
         ))}
       </div>
-    </div>
+    </Container>
   );
 }
 
