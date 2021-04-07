@@ -3,12 +3,12 @@ import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
-// import home from "../../assets/img/home.jpeg";
+import Footer from "../../components/Footer/Footer";
 
 function Contact() {
   return (
     <Container>
-      <h2>Contact Me</h2>
+      <h2 className="page-header">Contact Me</h2>
       {/* <div className="centered"> */}
       <Card className="p-1 bg-light centered card-contact">
         {/* <img src={home} key={home} alt="Me" className="card-img-top img-fluid " /> */}
@@ -72,6 +72,7 @@ function Contact() {
         {/* </div> */}
       </Card>
       {/* </div> */}
+      <Footer />
     </Container>
   );
 }

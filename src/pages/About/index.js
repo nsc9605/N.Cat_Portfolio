@@ -6,7 +6,7 @@ import "./style.css";
 function About() {
   return (
     <Container fluid="md" className="about-div m-3 p-2">
-      <h2 className="subheading">About Me</h2>
+      <h2 className="subheading page-header">About Me</h2>
       <div className="about-me">
         <p>
           <img
@@ -14,6 +14,8 @@ function About() {
             alt="Nicole Catapano"
             className="profile-img p-3 float-right m-4 pull-right img-fluid rounded"
           />
+          </p>
+          <p>
           I am a Full Stack Web Developer originally from St. Louis, MO trained
           in the MERN Stack based in Brooklyn, NY acquiring a Certificate
           through University of North Carolina at Charlotte.

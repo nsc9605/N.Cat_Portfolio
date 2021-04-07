@@ -5,14 +5,15 @@
 
 .home-div {
   height: 100vh;
-  display: grid !important;
+  /* display: grid !important;
   grid-template-columns: 1fr 1fr !important;
-  gap: 20px;
+  gap: 20px; */
   /* wrap: break-word; */
   /* display: flex !important; */
   /* flex-direction: column; */
   /* flex-wrap: wrap !important; */
 }
+
 
 .objects {
   display: flex;

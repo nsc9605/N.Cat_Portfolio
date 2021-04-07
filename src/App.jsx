@@ -6,7 +6,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 // import Container from "react-bootstrap/Container";
 import './index.css';
 
@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
-          <Footer />
+          {/* <Footer /> */}
           </div>
       </Router>
     );

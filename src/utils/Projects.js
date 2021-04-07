@@ -4,6 +4,7 @@ import Buns from '../assets/img/graphs.png';
 import Burger from '../assets/img/burg.png';
 import EmpTracker from '../assets/img/all_roles.png';
 import Luck from '../assets/img/luck.png';
+import Music from '../assets/img/music.png';
 
     export const projects = [
         {
@@ -54,6 +55,33 @@ import Luck from '../assets/img/luck.png';
         },
         {
             id: 6,
+            title: "Test Your Luck",
+            description: "This application will allow you to place bets between two teams using an API which will be stored in the database as well as each team, bet amount, and new amount.",
+            tags: [ "MySql", '﹒', "Express", '﹒', "Node.js", '﹒', "JavaScript", '﹒', "Handlebars", '﹒', "Axios", '﹒', "HTML", '﹒', "CSS" ],
+            image: Luck,
+            repo: "https://github.com/nsc9605/Test_Your-Luck.git",
+            deploy: "https://test-your-luck.herokuapp.com/"
+        },
+        {
+            id: 7,
+            title: "Music Junkies",
+            description: "Music application that shows the top 5 songs in history for a given date. Provides a link to a music video as well as a biography page on the #1 artist.",
+            tags: [ "jQuery", '﹒',  "APIs", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS" ],
+            image: Music,
+            repo: "https://github.com/nsc9605/MusicJunkies.git",
+            deploy: "https://test-your-luck.herokuapp.com/"
+        },
+        {
+            id: 8,
+            title: "Test Your Luck",
+            description: "This application will allow you to place bets between two teams using an API which will be stored in the database as well as each team, bet amount, and new amount.",
+            tags: [ "MySql", '﹒', "Express", '﹒', "Node.js", '﹒', "JavaScript", '﹒', "Handlebars", '﹒', "Axios", '﹒', "HTML", '﹒', "CSS" ],
+            image: Luck,
+            repo: "https://github.com/nsc9605/Test_Your-Luck.git",
+            deploy: "https://test-your-luck.herokuapp.com/"
+        },
+        {
+            id: 9,
             title: "Test Your Luck",
             description: "This application will allow you to place bets between two teams using an API which will be stored in the database as well as each team, bet amount, and new amount.",
             tags: [ "MySql", '﹒', "Express", '﹒', "Node.js", '﹒', "JavaScript", '﹒', "Handlebars", '﹒', "Axios", '﹒', "HTML", '﹒', "CSS" ],
