@@ -5,6 +5,7 @@ import Burger from '../assets/img/burg.png';
 import EmpTracker from '../assets/img/all_roles.png';
 import Luck from '../assets/img/luck.png';
 import Music from '../assets/img/music.png';
+import Weather from '../assets/img/weather.png';
 
     export const projects = [
         {
@@ -69,25 +70,16 @@ import Music from '../assets/img/music.png';
             tags: [ "jQuery", '﹒',  "APIs", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS" ],
             image: Music,
             repo: "https://github.com/nsc9605/MusicJunkies.git",
-            deploy: "https://test-your-luck.herokuapp.com/"
+            deploy: "https://nsc9605.github.io/MusicJunkies/"
         },
         {
             id: 8,
-            title: "Test Your Luck",
-            description: "This application will allow you to place bets between two teams using an API which will be stored in the database as well as each team, bet amount, and new amount.",
-            tags: [ "MySql", '﹒', "Express", '﹒', "Node.js", '﹒', "JavaScript", '﹒', "Handlebars", '﹒', "Axios", '﹒', "HTML", '﹒', "CSS" ],
-            image: Luck,
-            repo: "https://github.com/nsc9605/Test_Your-Luck.git",
-            deploy: "https://test-your-luck.herokuapp.com/"
-        },
-        {
-            id: 9,
-            title: "Test Your Luck",
-            description: "This application will allow you to place bets between two teams using an API which will be stored in the database as well as each team, bet amount, and new amount.",
-            tags: [ "MySql", '﹒', "Express", '﹒', "Node.js", '﹒', "JavaScript", '﹒', "Handlebars", '﹒', "Axios", '﹒', "HTML", '﹒', "CSS" ],
-            image: Luck,
-            repo: "https://github.com/nsc9605/Test_Your-Luck.git",
-            deploy: "https://test-your-luck.herokuapp.com/"
+            title: "Weather Dashboard",
+            description: "Weather Dashboard application that uses an API to call the current weather conditions for an city as well as the 5-day forecast.",
+            tags: [ "JavaScript", '﹒', "Moment.js", '﹒', "APIs", '﹒', "HTML", '﹒', "CSS" ],
+            image: Weather,
+            repo: "https://github.com/nsc9605/WeatherDashboard_API.git",
+            deploy: "https://nsc9605.github.io/WeatherDashboard_API/"
         }
        
     ];
