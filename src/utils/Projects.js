@@ -12,8 +12,8 @@ import Pour_It_Up from '../assets/img/pour_it_up.gif';
         {
             id: 1,
             title: "Pour It Up",
-            description: "MERN stack app aimed at those new found bartenders during the 2020 quarantine lockdown. This app helps in assisting those with drink ingredients, preparations, glass, and more!",
-            tags: [ "MongoDB", '﹒', "Express", '﹒', "React", '﹒', "Node.js", '﹒', "Google Firebase", '﹒', "Material-UI", '﹒', "API", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS" ],
+            description: "MERN-stack app that helps assist those new at-home-bartenders with drink ingredients, preparations, glass, and more!",
+            tags: [ "MongoDB", '﹒', "Express", '﹒', "React", '﹒', "Node.js", '﹒', "Google Firebase", '﹒', "Material-UI", '﹒', "API", '﹒', "JavaScript" ],
             image: Pour_It_Up,
             repo: "https://github.com/nsc9605/Pour_It_Up",
             deploy: "https://www.pour-it-up.herokuapp.com"
