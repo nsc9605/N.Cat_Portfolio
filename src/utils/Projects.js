@@ -6,10 +6,21 @@ import EmpTracker from '../assets/img/all_roles.png';
 import Luck from '../assets/img/luck.png';
 import Music from '../assets/img/music.png';
 import Weather from '../assets/img/weather.png';
+import Pour_It_Up from '../assets/img/pour_it_up.gif';
 
     export const projects = [
         {
             id: 1,
+            title: "Pour It Up",
+            description: "MERN stack app aimed at those new found bartenders during the 2020 quarantine lockdown. This app helps in assisting those with drink ingredients, preparations, glass, and more!",
+            tags: [ "MongoDB", '﹒', "Express", '﹒', "React", '﹒', "Node.js", '﹒', "Google Firebase", '﹒', "Material-UI", '﹒', "API", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS" ],
+            image: Pour_It_Up,
+            repo: "https://github.com/nsc9605/Pour_It_Up",
+            deploy: "https://www.pour-it-up.herokuapp.com"
+    
+        },
+        {
+            id: 2,
             title: "Employee Directory",
             description: "React App that allows a manager to view non-sensitive data about other employees using React. Allows the user to filter employees by letters in name and sort by name.",
             tags: [ "React", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS", '﹒', "API" ],
@@ -19,7 +30,7 @@ import Weather from '../assets/img/weather.png';
     
         },
         {
-            id: 2,
+            id: 3,
             title: "React Workday Scheduler",
             description: "This is a simple weekly calendar for the average work day of 8-5pm using React. The time blocks change color for past, present, future depending on user\ns current time.",
             tags: [ "React", '﹒', "Node.js", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS" ],
@@ -28,7 +39,7 @@ import Weather from '../assets/img/weather.png';
             deploy: "https://nsc9605.github.io/React-WorkDay_Scheduler/"
         },
         {
-            id: 3,
+            id: 4,
             title: "Move Those Buns!",
             description: "This is a fitness tracker that allows a user to create and track daily workouts with the option to Continue Workout or create New Workout.",
             tags: [ "MongoDB", '﹒', "Mongoose", '﹒', "NoSQL", '﹒', "Morgan", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS", '﹒', "Heroku" ],
@@ -37,7 +48,7 @@ import Weather from '../assets/img/weather.png';
             deploy: "https://move-those-buns.herokuapp.com/"
         },
         {
-            id: 4,
+            id: 5,
             title: "Burger Boss",
             description: "Application that follows the MVC design pattern to create, update, and delete burgers from a list .",
             tags: [ "MySQL", '﹒', "Node.js", '﹒', "Express", '﹒', "Handlebars", '﹒', "MVC-Framework", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS" ],
@@ -46,7 +57,7 @@ import Weather from '../assets/img/weather.png';
             deploy: "https://burger-boss-catapano.herokuapp.com/"
         },
         {
-            id: 5,
+            id: 6,
             title: "MySQL Employee Tracker",
             description: "CLI-based application which is aimed to help companies keep track of their employees, departments and roles of a large company.",
             tags: [ "MySQL", '﹒', "Node.js", '﹒', "JavaScript", '﹒', "CLI" ],
@@ -55,7 +66,7 @@ import Weather from '../assets/img/weather.png';
             deploy: "https://drive.google.com/file/d/1uYEu8ud4B6lMZuqcg8MWIQ3SgX4ao1ec/view"
         },
         {
-            id: 6,
+            id: 7,
             title: "Test Your Luck",
             description: "This application will allow you to place bets between two teams using an API which will be stored in the database as well as each team, bet amount, and new amount.",
             tags: [ "MySql", '﹒', "Express", '﹒', "Node.js", '﹒', "JavaScript", '﹒', "Handlebars", '﹒', "Axios", '﹒', "HTML", '﹒', "CSS" ],
@@ -64,7 +75,7 @@ import Weather from '../assets/img/weather.png';
             deploy: "https://test-your-luck.herokuapp.com/"
         },
         {
-            id: 7,
+            id: 8,
             title: "Music Junkies",
             description: "Music application that shows the top 5 songs in history for a given date. Provides a link to a music video as well as a biography page on the #1 artist.",
             tags: [ "jQuery", '﹒',  "APIs", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS" ],
@@ -73,7 +84,7 @@ import Weather from '../assets/img/weather.png';
             deploy: "https://nsc9605.github.io/MusicJunkies/"
         },
         {
-            id: 8,
+            id: 9,
             title: "Weather Dashboard",
             description: "Weather Dashboard application that uses an API to call the current weather conditions for an city as well as the 5-day forecast.",
             tags: [ "JavaScript", '﹒', "Moment.js", '﹒', "APIs", '﹒', "HTML", '﹒', "CSS" ],

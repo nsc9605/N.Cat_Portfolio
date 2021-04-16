@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 // import Project from "../../components/Project/Project";
 import Draft from "../../components/Project/Draft";
+import Footer from "../../components/Footer/Footer";
 import projects from "../../utils/Projects";
 
 function Portfolio() {
@@ -24,6 +25,7 @@ function Portfolio() {
           ></Draft>
         ))}
       </div>
+      <Footer />
     </Container>
   );
 }
