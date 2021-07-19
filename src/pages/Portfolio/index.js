@@ -6,9 +6,9 @@ import projects from "../../utils/Projects";
 
 function Portfolio() {
   return (
-    <Container fluid="sm">
+    <Container fluid>
       <h2 className="m-2 page-header">Projects</h2>
-      <div fluid="xs" className="portfolio-item m-1">
+      <div className="portfolio-item">
         {projects.map((project) => (
           <Project
             project={project}

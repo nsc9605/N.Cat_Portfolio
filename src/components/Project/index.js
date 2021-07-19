@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 function Project(props) {
   return (
-    <div className="alignments p-2">
+    <div className="alignments m-2">
       <Card
         style={{ maxWidth: "25rem", maxHeight: "28rem", border: "black solid 1px" }}
         className="overflow-auto"
