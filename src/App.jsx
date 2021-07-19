@@ -8,7 +8,7 @@ import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
 // import Footer from "./components/Footer/Footer";
 // import Container from "react-bootstrap/Container";
-import './styles/index.css';
+import './index.css';
 
 function App() {
     return (
