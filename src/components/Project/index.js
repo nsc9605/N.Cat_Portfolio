@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 function Project(props) {
   return (
-    <div className="alignment p-2">
+    <div className="alignments p-2">
       <Card
         style={{ maxWidth: "25rem", maxHeight: "28rem", minWidth: "10rem", minHeight: "15rem", border: "black solid 1px" }}
         className="overflow-auto"
@@ -19,7 +19,7 @@ function Project(props) {
           <Card.Text className="desc">{props.description}</Card.Text>
           <Card.Text className="m-2 text-center px-3 tags">{props.tags}</Card.Text>
         </Card.Body>
-        <Card.Body className="text-center p-2 card-links">
+        <Card.Body className="text-center p-2 card-links" style={{ position: 'relative'}}>
           <Card.Link href={props.deploy} variant="bottom">
             Launch<i className="fa fa-desktop mx-2 fa-lg"></i>
           </Card.Link>
