@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <Container fluid="sm">
       <h2 className="m-2 page-header">Projects</h2>
-      <div fluid="xs" className="portfolio-item p-1">
+      <div fluid="xs" className="portfolio-item m-1">
         {projects.map((project) => (
           <Project
             project={project}

@@ -47,7 +47,7 @@ body.home {
 
 .card-content {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
 }
 

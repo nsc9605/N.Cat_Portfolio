@@ -5,7 +5,7 @@ function Project(props) {
   return (
     <div className="alignments p-2">
       <Card
-        style={{ maxWidth: "25rem", maxHeight: "28rem", minWidth: "10rem", minHeight: "15rem", border: "black solid 1px" }}
+        style={{ maxWidth: "25rem", maxHeight: "28rem", border: "black solid 1px" }}
         className="overflow-auto"
       >
         <Card.Img
