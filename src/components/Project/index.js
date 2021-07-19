@@ -5,7 +5,11 @@ function Project(props) {
   return (
     <div className="alignments m-2">
       <Card
-        style={{ maxWidth: "25rem", maxHeight: "28rem", border: "black solid 1px" }}
+        style={{
+          maxWidth: "25rem",
+          maxHeight: "28rem",
+          border: "black solid 1px",
+        }}
         className="overflow-auto"
       >
         <Card.Img
@@ -17,15 +21,24 @@ function Project(props) {
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text className="desc">{props.description}</Card.Text>
-          <Card.Text className="m-2 text-center px-3 tags">{props.tags}</Card.Text>
+          <Card.Text className="m-2 text-center px-3 tags">
+            {props.tags}
+          </Card.Text>
         </Card.Body>
-        <Card.Body className="text-center p-2 card-links" style={{ position: 'relative'}}>
-          <Card.Link href={props.deploy} variant="bottom">
-            Launch<i className="fa fa-desktop mx-2 fa-lg"></i>
-          </Card.Link>
-          <Card.Link href={props.repo}>
-            Repo<i className="fa fa-github mx-2 fa-lg"></i>
-          </Card.Link>
+        <Card.Body
+          className="text-center p-2 card-links"
+          style={{ position: "relative" }}
+        >
+          <Card.Text>
+            <Card.Link href={props.deploy} variant="bottom">
+              Launch<i className="fa fa-desktop mx-2 fa-lg"></i>
+            </Card.Link>
+            {/* </Card.Text> */}
+            <Card.Link href={props.repo}>
+              {/* <Card.Text> */}
+              Repo<i className="fa fa-github mx-2 fa-lg"></i>
+            </Card.Link>
+          </Card.Text>
         </Card.Body>
       </Card>
     </div>
