@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 
 :root {
   --breakpoint-xs: 0;
@@ -16,7 +17,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
 
@@ -26,8 +27,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: rgb(237, 237, 237); */
   /* background: url(https://i.pinimg.com/564x/22/61/c0/2261c01c4999fab8466f0e88c1a21cd9.jpg) */
-    /* url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples12.jpeg) */
-    /* no-repeat center center fixed; */
+  /* url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples12.jpeg) */
+  /* no-repeat center center fixed; */
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,7 +55,7 @@ body.home {
   width: 100%;
   height: 40vh;
   object-fit: cover;
-  }
+}
 .homeImg {
   height: 800px;
   /* width: 400px; */
@@ -66,12 +67,10 @@ body.home {
   flex-wrap: wrap;
 }
 
-
 .card-links {
   justify-content: center;
   font-size: 15px;
   position: relative;
-
 }
 
 .card:hover {
@@ -106,7 +105,6 @@ h3 {
 
 .brand {
   font-size: 1.7rem !important;
-  
 }
 
 .centered {
@@ -162,6 +160,13 @@ h3 {
   /* padding: 10px; */
 }
 
+
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .about {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -179,9 +184,8 @@ h3 {
 }
 
 .about-me {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
 }
-
 
 .contact-link:hover,
 .contact-link:focus {
@@ -231,4 +235,3 @@ h3 {
   font-size: 2rem;
   font-weight: bold;
 }
-
