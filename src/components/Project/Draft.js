@@ -15,10 +15,10 @@ function Draft(props) {
         />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
-          <Card.Text>{props.description}</Card.Text>
-          <Card.Text className="m-2 text-center">{props.tags}</Card.Text>
+          <Card.Text className="desc">{props.description}</Card.Text>
+          <Card.Text className="m-2 text-center px-3 tags">{props.tags}</Card.Text>
         </Card.Body>
-        <Card.Body className="text-center m-2">
+        <Card.Body className="text-center my-2">
           <Card.Link href={props.deploy}>
             Launch<i className="fa fa-desktop mx-2 fa-lg"></i>
           </Card.Link>

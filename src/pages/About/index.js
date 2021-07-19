@@ -15,10 +15,11 @@ function About() {
               src={profile}
               alt="Nicole Catapano"
               className="profile-img p-3 float-right m-4 pull-right img-fluid rounded"
+              // rounded="true"
             />
           </p>
           <p>
-            I am a Full Stack Web Developer originally from St. Louis, MO
+            I am a Full Stack Software Developer originally from St. Louis, MO
             trained in the MERN Stack based in Brooklyn, NY acquiring a
             Certificate through University of North Carolina at Charlotte.
           </p>
@@ -50,11 +51,8 @@ function About() {
           </p>
         </div>
         <div className="mb-3">
-          <h2 className="skills">Technical Skills</h2>
+          <h2 className="skills page-header">Technical Skills</h2>
           <h2 className="tech-cons pb-3">
-            {/* HTML5 ﹒ CSS3 ﹒ JavaScript ﹒ jQuery ﹒ Express ﹒ Node.js ﹒
-        Handlebars ﹒ ES6 ﹒ MySQL ﹒ MongoDB ﹒ NoSQL ﹒ GitHub ﹒ API ﹒
-        Bootstrap */}
             <i className="devicon-html5-plain-wordmark colored"></i>
             <i className="devicon-css3-plain-wordmark colored"></i>
             <i className="devicon-javascript-plain colored"></i>

@@ -42,3 +42,13 @@ blockquote {
     gap: 10px;
   }
 }
+
+
+.self {
+  /* background-image: url(../../assets/img/9F09B949-6B62-4791-A896-6DD71ED21D3B_1_105_c.jpeg); */
+  background-image: url(../../assets/img/BC821B51-CA7C-4269-9D01-431B240AB8C4_1_105_c.jpeg);
+  background-color: black;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
