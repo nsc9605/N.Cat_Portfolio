@@ -1,8 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import resume from "../../assets/Res-ML.pdf";
-// import Avatar from "react-avatar";
+import resume from "../../assets/Nicole-Res-2021.pdf";
 
 import profile from "../../assets/img/self.jpeg";
 
@@ -12,7 +11,6 @@ function Navtabs() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Link to="/about">
-        {/* <Navbar.Brand className="brand size-large"> */}
         <Navbar.Brand
           to="/"
           className={

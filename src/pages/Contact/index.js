@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-// import { Form, Button } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Footer from "../../components/Footer/Footer";
@@ -10,7 +9,6 @@ function Contact() {
     <Container>
       <h2 className="page-header">Contact Me</h2>
       <Card className="p-1 bg-light centered card-contact">
-        {/* <img src={home} key={home} alt="Me" className="card-img-top img-fluid " /> */}
         <div className="card-title">
           <h4 className="p-2 text-center">
             Please feel free to contact me via any of the provided links!

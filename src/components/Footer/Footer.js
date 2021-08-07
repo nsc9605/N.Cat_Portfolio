@@ -1,11 +1,8 @@
 import React from "react";
-// import Container from "react-bootstrap/Container";
 import "./style.css";
 
 function Footer() {
-  return (
-    // <Container>
-    // <div> 
+  return ( 
     <div className="footer pt-5">
       <small className="align-text-center">&copy; 2020 Nicole Catapano</small>
       <div className="p-1 size-md">
@@ -61,8 +58,6 @@ function Footer() {
           </a>
         </div> 
   </div>
-    // </div>
-    // </Container>
   );
 }
 

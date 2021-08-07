@@ -25,15 +25,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: rgb(237, 237, 237); */
-  /* background: url(https://i.pinimg.com/564x/22/61/c0/2261c01c4999fab8466f0e88c1a21cd9.jpg) */
-  /* url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples12.jpeg) */
-  /* no-repeat center center fixed; */
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-  /* position: relative; */
 }
 
 body.home {
@@ -41,13 +32,10 @@ body.home {
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  /* height: `80%`,
-  width: `80%`, */
 }
 
 .card-content {
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
 }
 
@@ -58,7 +46,6 @@ body.home {
 }
 .homeImg {
   height: 800px;
-  /* width: 400px; */
   border: 3px solid;
   box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
     0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
@@ -70,7 +57,6 @@ body.home {
 .card-links {
   justify-content: center;
   font-size: 15px;
-  /* position: relative; */
 }
 
 .card:hover {
@@ -85,7 +71,6 @@ body.home {
   max-height: 37rem;
   align-items: center !important;
   border-radius: 0.6em;
-  /* margin: 1em; */
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
@@ -96,11 +81,8 @@ body.home {
 /* header settings for each project */
 h3 {
   font-size: 45px;
-  /* color: rgb(255, 225, 194); */
-  /* -webkit-text-stroke-width: .5px; */
   -webkit-text-stroke-color: rgb(6, 6, 6);
   text-shadow: 1px 1px 1px rgb(19, 16, 16);
-  /* font-weight: bolder; */
 }
 
 .brand {
@@ -117,21 +99,8 @@ h3 {
 
 .alignments {
   height: 100%; /* Magic here */
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
-  /* justify-content: space-evenly; */
   align-items: center;
 }
-
-/* footer {
-  text-align: center;
-  font-size: 1.3rem;
-  position: absolute;
-  left:0;
-  bottom:0;
-  right:0;
-  } */
 
 .icons-grid {
   display: grid;
@@ -140,7 +109,6 @@ h3 {
   max-width: 200px;
   margin: auto;
   align-items: center;
-  /* position: center; */
 }
 
 .subheader {
@@ -157,9 +125,7 @@ h3 {
   border-style: solid;
   transition: all 0.3s ease 0s !important;
   border-radius: 5px;
-  /* padding: 10px; */
 }
-
 
 .portfolio-item {
   display: flex;
@@ -190,7 +156,7 @@ h3 {
 }
 
 .container {
-  max-width: '100%'  /*/ This will make container to take screen width/*/
+  max-width: "100%"; /*/ This will make container to take screen width/*/
 }
 
 .contact-link:hover,
@@ -213,7 +179,6 @@ h3 {
   color: rgb(235, 174, 121);
   text-shadow: 4px 4px 4px rgb(19, 16, 16), 1px 2px 2px, 2px -1px 2px #000,
     -1px -1px 1px #000;
-  /* border-bottom-width: ; */
 }
 
 .tags {

@@ -33,9 +33,7 @@ function Project(props) {
             <Card.Link href={props.deploy} variant="bottom">
               Launch<i className="fa fa-desktop mx-2 fa-lg"></i>
             </Card.Link>
-            {/* </Card.Text> */}
             <Card.Link href={props.repo}>
-              {/* <Card.Text> */}
               Repo<i className="fa fa-github mx-2 fa-lg"></i>
             </Card.Link>
           </Card.Text>
