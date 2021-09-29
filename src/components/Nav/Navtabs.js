@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import resume from "../../assets/Nicole-Res-2021.pdf";
+import resume from "../../assets/Nicole-Catapano-2021.pdf";
 
 import profile from "../../assets/img/self.jpeg";
 

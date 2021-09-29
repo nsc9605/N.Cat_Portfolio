@@ -1,4 +1,4 @@
-# Responsive-Portfolio
+# Nicole Catapano Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -19,8 +19,6 @@ This is a professional portfolio created using React displaying information abou
 - [Contact Information](#contact-information)
 
 ## Demonstration
-
-![Overview](src/img/main.png)
 
 ### About Me Section
 ![AboutMe](src/assets/img/about.png)
@@ -51,11 +49,13 @@ This is a professional portfolio created using React displaying information abou
 │           └── github.svg
 │           └── graphs.png
 │           └── header1.png
-│           └── home.jpeg
 │           └── luck.png
-│           └── luck.png
-│           └── projects.jpeg
-│       └── Web_Dev-Res.pdf
+│           └── music.png
+│           └── pour-it-up.gif
+│           └── projects.png
+│           └── self.jpeg
+│           └── weather.png
+│       └── Nicole-Catapano-2021.pdf
 │
 │   └── components
 │       └── Footer
