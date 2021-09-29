@@ -27,12 +27,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body.home {
-  background-image: url("./assets/img/BC821B51-CA7C-4269-9D01-431B240AB8C4_1_105_c.jpeg");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: cover;
-}
 
 .card-content {
   display: flex;
