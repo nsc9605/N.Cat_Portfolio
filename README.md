@@ -6,7 +6,7 @@
 
 This is a professional portfolio created using React displaying information about me, projects I have completed with description, deployed link and link to GitHub Repository as well. Included is a recent photograph as well as some background information about me. This page is user friendly and when you click one of the links in the navigation, it scrolls to each corresponding section. Projects are mapped through a javascript file with information and displayed in cards on the page under projects.
 
-:round_pushpin: [Click here to view deployed page!](https://nsc9605.github.io/N.Cat_Portfolio) :round_pushpin:
+:round_pushpin: [Click here to view deployed page!](https://nicole-catapano.herokuapp.com/) :round_pushpin:
 
 ## Table of Contents
 
@@ -106,7 +106,7 @@ This is a professional portfolio created using React displaying information abou
 
 ## Usage
 
-[Click here to deploy application!](https://nsc9605.github.io/Responsive-Portfolio/)
+[Click here to deploy application!](https://nicole-catapano.herokuapp.com/)
 
 
 ## License
@@ -133,7 +133,7 @@ This project was creating with help from:
 ## Contact Information
 
 - GitHub: [nsc9605](https://github.com/nsc9605)
-- Portfolio: [Deploy Portfolio](https://nsc9605.github.io/Responsive-Portfolio/)
+- Portfolio: [Deploy Portfolio](https://nicole-catapano.herokuapp.com/)
 - Email: [Nicole Catapano](mailto:nsc9605@gmail.com)
 # Getting Started with Create React App
 
