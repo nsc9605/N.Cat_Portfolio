@@ -40,7 +40,7 @@ import Pour_It_Up from '../assets/img/pour_it_up.gif';
         },
         {
             id: 4,
-            title: "Move Those Buns!",
+            title: "Move Those Buns",
             description: "This is a fitness tracker that allows a user to create and track daily workouts with the option to Continue Workout or create New Workout.",
             tags: [ "MongoDB", '﹒', "Mongoose", '﹒', "NoSQL", '﹒', "Morgan", '﹒', "JavaScript", '﹒', "HTML", '﹒', "CSS", '﹒', "Heroku" ],
             image: Buns,

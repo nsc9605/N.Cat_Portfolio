@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import resume from "../../assets/Nicole-Catapano-2021.pdf";
-
 import profile from "../../assets/img/self.jpeg";
 
 function Navtabs() {
@@ -14,7 +13,9 @@ function Navtabs() {
         <Navbar.Brand
           to="/"
           className={
-            location.pathname === "/" ? "brand size-large navbar" : "nav-link brand "
+            location.pathname === "/"
+              ? "brand size-large navbar"
+              : "nav-link brand "
           }
         >
           <img

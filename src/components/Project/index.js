@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+// import { ListGroup, ListGroupItem } from "react-bootstrap";
 import "../../index.css";
 
 function Project(props) {
@@ -11,7 +12,7 @@ function Project(props) {
           maxHeight: "28rem",
           border: "black solid 1px",
         }}
-        className="overflow-auto"
+        className="overflow-auto p-2"
       >
         <Card.Img
           variant="top"
@@ -20,24 +21,17 @@ function Project(props) {
           className="p-2 border img-fluid card-img-top"
         />
         <Card.Body>
-          <Card.Title>{props.title}</Card.Title>
+          <Card.Title style={{ fontWeight: "bolder" }}>{props.title}</Card.Title>
           <Card.Text className="desc">{props.description}</Card.Text>
-          <Card.Text className="tags m-2 text-center">
-            {props.tags}
-          </Card.Text>
-        </Card.Body>
-        <Card.Body
-          className="text-center p-2 card-links"
-          style={{ position: "relative" }}
-        >
-          <Card.Text>
+          <Card.Text className="tags text-center">{props.tags}</Card.Text>
+          <Card.Footer className="text-center card-links">
             <Card.Link href={props.deploy} variant="bottom">
-              Launch<i className="fa fa-desktop m-2 fa-lg"></i>
+              Launch<i className="fa fa-desktop mx-2 fa-lg"></i>
             </Card.Link>
             <Card.Link href={props.repo} variant="bottom">
-              Repo<i className="fa fa-github m-2 fa-lg"></i>
+              Repo<i className="fa fa-github mx-2 fa-lg"></i>
             </Card.Link>
-          </Card.Text>
+          </Card.Footer>
         </Card.Body>
       </Card>
     </div>
