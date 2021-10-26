@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import "../../index.css";
 
 function Project(props) {
   return (
@@ -21,7 +22,7 @@ function Project(props) {
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text className="desc">{props.description}</Card.Text>
-          <Card.Text className="m-2 text-center px-3 tags">
+          <Card.Text className="tags m-2 text-center">
             {props.tags}
           </Card.Text>
         </Card.Body>
@@ -31,10 +32,10 @@ function Project(props) {
         >
           <Card.Text>
             <Card.Link href={props.deploy} variant="bottom">
-              Launch<i className="fa fa-desktop mx-2 fa-lg"></i>
+              Launch<i className="fa fa-desktop m-2 fa-lg"></i>
             </Card.Link>
-            <Card.Link href={props.repo}>
-              Repo<i className="fa fa-github mx-2 fa-lg"></i>
+            <Card.Link href={props.repo} variant="bottom">
+              Repo<i className="fa fa-github m-2 fa-lg"></i>
             </Card.Link>
           </Card.Text>
         </Card.Body>
