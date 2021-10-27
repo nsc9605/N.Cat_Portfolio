@@ -64,8 +64,8 @@ body {
 }
 
 .card-proj {
-  max-width: 37rem;
-  max-height: 37rem;
+  max-width: 25rem !important;
+  max-height: 28rem !important;
   align-items: center !important;
   border-radius: 0.6em;
   overflow: hidden;

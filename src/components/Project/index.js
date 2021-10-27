@@ -11,7 +11,7 @@ function Project(props) {
           maxHeight: "28rem",
           border: "black solid 1px",
         }}
-        className="overflow-auto"
+        className="overflow-auto card-proj"
       >
         <Card.Img
           variant="top"

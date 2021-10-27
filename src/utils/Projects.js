@@ -1,10 +1,8 @@
 import Employee_Directory from '../assets/img/Employee-Directory.gif';
 import Scheduler from '../assets/img/header1.png';
-// import Buns from '../assets/img/graphs.png';
 import Buns from '../assets/img/Fitness.png'
 import Burger from '../assets/img/burg.png';
 import EmpTracker from '../assets/img/all_roles.png';
-// import Luck from '../assets/img/luck.png';
 import Luck from '../assets/img/test.png';
 import Music from '../assets/img/music.png';
 import Weather from '../assets/img/weather.png';
