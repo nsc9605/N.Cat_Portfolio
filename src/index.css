@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 
-
 :root {
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -55,9 +54,6 @@ body {
 .card-links {
   justify-content: center;
   font-size: 15px;
-
-  /* margin-top: 1.5rem !important;
-  padding: 0.5rem !important; */
 }
 
 .card:hover {
@@ -211,42 +207,26 @@ h3 {
 .scroll-to-top {
   display: none;
   position: fixed;
-  width: 60px;
-  height: 60px;
-  right: 40px;
+  max-width: 70px;
+  max-height: 70px;
+  right: 1%;
   bottom: 40px;
   padding: 20px;
   border-radius: 50%;
   background-size: 40px;
   background-position: center;
   background-repeat: no-repeat;
-  /* font-size: 3rem; */
-  z-index: 100000;
+  z-index: 99;
   cursor: pointer;
-  /* visibility: hidden; */
-  background: #fff url(./assets/img/up-arrow.png);
-  /* background-color: rgb(98, 155, 95) !important; */
+  background-image: url(./assets/img/up-arrow.png);
   animation: fadeIn 0.3s;
   transition: 5s;
-  /* transition: opacity 0.4s background-color .5s; */
   opacity: 0;
-  box-shadow: 0 5px 10px rgb(148, 144, 144);
-  
+  box-shadow: 0 5px 10px rgb(44, 79, 51);
 }
-
-/* .scroll--fade-out {
-  opacity: .5
-}
-
-.scroll--is-visible {
-  visibility: visible;
-  opacity: .7
-} */
 
 .scroll-to-top:hover {
   opacity: 1;
-  /* background-color: rgb(32, 62, 32)!important; */
-  /* color: white !important; */
   transition: all 0.5s ease 0s !important;
 }
 

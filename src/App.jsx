@@ -16,7 +16,7 @@ function App() {
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
-            <ScrollButton/>
+          <ScrollButton />
           </div>
       </Router>
     );

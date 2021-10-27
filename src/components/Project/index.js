@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-// import { ListGroup, ListGroupItem } from "react-bootstrap";
 import "../../index.css";
 
 function Project(props) {
@@ -12,7 +11,7 @@ function Project(props) {
           maxHeight: "28rem",
           border: "black solid 1px",
         }}
-        className="overflow-auto p-2"
+        className="overflow-auto"
       >
         <Card.Img
           variant="top"
