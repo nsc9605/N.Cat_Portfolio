@@ -4,7 +4,7 @@ import Navtabs from "./components/Nav/Navtabs";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
-import ScrollButton from "./components/ScrollButton/ScrollButton"
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import './index.css';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
-          <ScrollButton />
+          <ScrollToTop />
           </div>
       </Router>
     );
