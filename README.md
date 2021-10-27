@@ -122,6 +122,7 @@ This project was creating with help from:
 
 - My tutor [Eric Wallen](https://github.com/ericwallen)
 - [W3Schools](https://w3schools.com)
+- Arrow icon made by [srip](https://www.flaticon.com/authors/srip)
 
 
 ## Technologies
