@@ -13,7 +13,7 @@ export default function ScrollToTop() {
     const toggleVisibility = () => {
       if (!isVisible && window.pageYOffset > 400) {
         setIsVisible(true);
-      } else {
+      } else if(isVisible && window.pageYOffset <= 400) {
         setIsVisible(false);
       }
     };
@@ -27,7 +27,7 @@ export default function ScrollToTop() {
     <>
       {isVisible && (
         <button
-          duration={500}
+          duration={1000}
           onClick={scrollToTop}
           style={{ display: isVisible ? "inline" : "none"}}
           className="scroll-to-top"
