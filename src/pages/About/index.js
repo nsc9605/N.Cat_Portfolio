@@ -18,7 +18,7 @@ function About() {
             />
           </p>
           <p>
-            I am a Full Stack Software Developer originally from St. Louis, MO
+            I am a Software Developer originally from St. Louis, MO
             based in Brooklyn, NY. I received a Certification through University
             of North Carolina at Charlotte Coding Bootcamp.
           </p>

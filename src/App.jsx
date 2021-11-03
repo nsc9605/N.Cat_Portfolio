@@ -10,14 +10,14 @@ import './index.css';
 function App() {
     return (
       <Router >
-        <div>
+        <>
           <Navtabs />
             <Route exact path="/" component={About} />
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
           <ScrollToTop />
-          </div>
+          </>
       </Router>
     );
   }
