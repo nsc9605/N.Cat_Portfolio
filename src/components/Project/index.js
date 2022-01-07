@@ -24,10 +24,10 @@ function Project(props) {
           <Card.Text className="desc">{props.description}</Card.Text>
           <Card.Text className="tags text-center">{props.tags}</Card.Text>
           <Card.Footer className="text-center card-links">
-            <Card.Link href={props.deploy} variant="bottom">
+            <Card.Link href={props.deploy} variant="bottom" target="_blank">
               Launch<i className="fa fa-desktop mx-2 fa-lg"></i>
             </Card.Link>
-            <Card.Link href={props.repo} variant="bottom">
+            <Card.Link href={props.repo} variant="bottom" target="_blank">
               Repo<i className="fa fa-github mx-2 fa-lg"></i>
             </Card.Link>
           </Card.Footer>

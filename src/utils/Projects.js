@@ -16,7 +16,8 @@ import Pour_It_Up from '../assets/img/pour_it_up.gif';
             tags: [ "MongoDB", '﹒', "Express", '﹒', "React", '﹒', "Node.js", '﹒', "Google Firebase", '﹒', "Material-UI", '﹒', "API", '﹒', "JavaScript" ],
             image: Pour_It_Up,
             repo: "https://github.com/nsc9605/Pour_It_Up",
-            deploy: "https://www.pour-it-up.herokuapp.com"
+            deploy: "https://pour-it-up.herokuapp.com/"
+            
     
         },
         {
