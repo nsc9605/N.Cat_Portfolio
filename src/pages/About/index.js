@@ -52,6 +52,7 @@ function About() {
             <i className="devicon-materialui-plain colored"></i>
             <i className="devicon-npm-original-wordmark colored"></i>
             <i className="devicon-visualstudio-plain colored"></i>
+            <i className="devicon-wordpress-plain-wordmark colored"></i>
           </h2>
           <br></br>
           <br></br>
