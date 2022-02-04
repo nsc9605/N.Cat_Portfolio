@@ -1,8 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import resume from "../../assets/Nicole-C-2022.pdf";
-import profile from "../../assets/img/self.jpeg";
+// import resume from "../../assets/Nicole-C-2022.pdf";
+import resume from "../../assets/Nicole-Cat-Res2022.pdf";
+// import profile from "../../assets/img/self.jpeg";
+import logo from "../../assets/img/favicon.png";
 
 function Navtabs() {
   const location = useLocation();
@@ -20,8 +22,9 @@ function Navtabs() {
         >
           <img
             alt="Headshot"
-            src={profile}
-            className="avatar avatar-s rounded-circle mr-2"
+            src={logo}
+            // src={profile}
+            className="avatar avatar-s rounded-square mr-2"
           ></img>
           Nicole Catapano
           <br></br> <span className="subheader">Software Developer</span>
